@@ -71,6 +71,13 @@ flutter run
 # Build Apk
 flutter build apk --release
 
-## The APK file will be generated at:
+# The APK file will be generated at:
 build/app/outputs/flutter-apk/app-release.apk
+```
 
+## 🧪 Notes
+
+- Pagination is handled inside Bloc to keep UI clean
+- Favorite list and favorite status are separated into different Blocs
+- SQLite is used for offline persistence of favorite users
+- The app is designed for scalability and maintainability
